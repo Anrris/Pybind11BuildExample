@@ -19,8 +19,8 @@ module = Extension('setup_test',
 setup (name = 'setup_test',
         version = '1.0',
         description = 'Intersections is a library to find the aric of two data sets.',
-        setup_requires=[
+        install_requires=[
             'wget >= 3.1',
-            'pybind11'
+            'pybind11',
         ],
         ext_modules = [module])
